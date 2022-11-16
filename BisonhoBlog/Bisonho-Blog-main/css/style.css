@@ -39,7 +39,7 @@ body{
 
 #area-principal{
     max-width: 57.5rem;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     display: flex;
 }
 
@@ -48,9 +48,10 @@ body{
     
 }
 
-#arealateral{
+#area-lateral{
     width: 15rem;
     margin-left: 1.2rem;
+
 }
 
 .postagem{
@@ -92,3 +93,48 @@ body{
 .postagem a:hover{
     text-decoration: underline;
 }
+
+.conteudo-lateral{
+    background-color: #fff;
+    padding: .8rem;
+    margin-bottom: .7rem;
+    border-radius: .3rem;
+
+
+}
+
+.conteudo-lateral-titulo{
+    background-color: #ccc;
+    color: rgb(56, 56, 56);
+    padding: .3rem;
+    border-radius: .2rem;
+}
+
+.texto-postagem-lateral{
+    font-size: .8rem;
+    padding: .3rem;
+}
+
+.navegacao-lateral a{
+    color: #f7b600;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.texto-postagem-lateral a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.rodape{
+    background-color: #ccc;
+    color: rgb(56, 56, 56);
+    max-width: 57.5rem; 
+    margin: .3rem auto;
+    text-align: center;
+    
+}
+
+
